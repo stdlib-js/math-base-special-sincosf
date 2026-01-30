@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import sincosf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincosf@deno/mod.js';
+import sincosf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincosf@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincosf@deno/mod.js';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincosf@v0.1.0-deno/mod.js';
 ```
 
 #### sincosf( x )
@@ -95,7 +95,7 @@ var bool = ( v === out );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import TWO_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-two-pi@deno/mod.js';
-import sincosf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincosf@deno/mod.js';
+import sincosf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincosf@v0.1.0-deno/mod.js';
 
 var opts = {
     'dtype': 'float32'
