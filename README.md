@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import sincosf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincosf@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-sincosf/tags). For example,
+
+```javascript
 import sincosf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincosf@v0.1.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincosf@v0.1.0-deno/mod.js';
+import { assign } from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincosf@deno/mod.js';
 ```
 
 #### sincosf( x )
@@ -95,7 +100,7 @@ var bool = ( v === out );
 ```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@deno/mod.js';
 import TWO_PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-two-pi@deno/mod.js';
-import sincosf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincosf@v0.1.0-deno/mod.js';
+import sincosf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-sincosf@deno/mod.js';
 
 var opts = {
     'dtype': 'float32'
