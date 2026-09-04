@@ -35,6 +35,22 @@ limitations under the License.
 
 > Simultaneously compute the [sine][@stdlib/math/base/special/sinf] and [cosine][@stdlib/math/base/special/cosf] of a single-precision floating-point number (in radians).
 
+<section class="intro">
+
+The function simultaneously computes the [sine][sine] and [cosine][cosine] of a number
+
+<!-- <equation class="equation" label="eq:sincos_function" align="center" raw="(y_s, y_c) = (\sin(x),\; \cos(x))" alt="Simultaneous sine and cosine"> -->
+
+```math
+(y_s, y_c) = (\sin(x),\; \cos(x))
+```
+
+<!-- </equation> -->
+
+</section>
+
+<!-- /.intro -->
+
 <section class="installation">
 
 ## Installation
@@ -288,6 +304,10 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/math-base-special-sincosf/tree/esm
 [esm-readme]: https://github.com/stdlib-js/math-base-special-sincosf/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/math-base-special-sincosf/blob/main/branches.md
+
+[cosine]: https://en.wikipedia.org/wiki/Cosine
+
+[sine]: https://en.wikipedia.org/wiki/Sine
 
 [@stdlib/math/base/special/cosf]: https://github.com/stdlib-js/math-base-special-cosf
 
