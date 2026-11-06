@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-20)
+## Unreleased (2026-11-06)
 
 <section class="bug-fixes">
 
@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`2d9f528`](https://github.com/stdlib-js/stdlib/commit/2d9f52814b7ed08bda0cbb89cb485e6ed2d78865) - **docs:** add equations [(#14687)](https://github.com/stdlib-js/stdlib/pull/14687) _(by Karan Anand)_
 -   [`b3feca8`](https://github.com/stdlib-js/stdlib/commit/b3feca8ade8ac03c6da0e194d54f31a8887197bf) - **fix:** correct argument reduction in `rempio2` and `rempio2f` [(#10869)](https://github.com/stdlib-js/stdlib/pull/10869) _(by anee3, Athan Reines, Karan Anand)_
 -   [`39c4de7`](https://github.com/stdlib-js/stdlib/commit/39c4de75a25292c00909cda17a7cb055113e608e) - **bench:** refactor to use string interpolation in `math/base/special` [(#11390)](https://github.com/stdlib-js/stdlib/pull/11390) _(by Karan Anand)_
